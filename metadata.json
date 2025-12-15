@@ -1,0 +1,5 @@
+{
+  "name": "BingoMaster AI",
+  "description": "Una aplicación completa de Bingo con modos de Administrador (Locutor) y Jugador. Incluye generación de cartones aleatorios y locución de números potenciada por IA.",
+  "requestFramePermissions": []
+}

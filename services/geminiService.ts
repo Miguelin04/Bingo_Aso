@@ -20,7 +20,7 @@ export const generateBingoCall = async (number: number): Promise<string> => {
       }
     });
 
-    return response.text.trim();
+    return response.text?.trim() || "";
   } catch (error) {
     console.error("Error generating bingo call:", error);
     return "";
